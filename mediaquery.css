@@ -1,0 +1,55 @@
+@media screen and (max-width: 1000px){
+    
+    .hero{
+        align-items: center;
+        text-align: center;
+    }
+     nav a{
+        display: none;
+    }
+
+    .hero h1{
+        font-size: 10vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+
+    .section2{
+        border-radius: 0  0 10vh 10vh;
+        height: auto;
+    }
+
+    .hero2{
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 20px;
+    }
+    .hero2  .left button{
+        display: block;
+        width:60vw;
+    }
+    
+    .section3{
+        flex-wrap:wrap-reverse ;
+        justify-content: center;
+    }
+
+    
+    .services .scard{
+        width: 30rem !important;
+     
+    }
+
+    .services .scard button{
+
+        width: 100%;
+    }
+}
